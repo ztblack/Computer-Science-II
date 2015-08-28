@@ -16,7 +16,8 @@
 */
 import java.util.*;
 
-public class RollDice{
+public class RollDice
+{
    
    
    
@@ -42,27 +43,30 @@ public class RollDice{
    /*
    * Perform the action of rolling a the pair of dice
    */
-   public void set(){
-      
-      PairDice
-      
+   public void set()
+   {
+      Pair = new Dice();
+      Pair.roll();
    }
    
    /*
    * Return the sum of the pair of dice
    */
-   public Integer getSum(){
-
+   public Integer getSum()
+   {
+      for (int i = 0 ; i < stats.length;)
    }
    
    /*
    * Rolls the object's pair of dice the prescribed number
    * of times and records the results in the stats array
    */
-   public void roll(Integer Num){
+   public void roll(Integer Num)
+   {
 
-      }      
-   }
+   }      
+   
+ }
    
    /*
    * return the stats array.
